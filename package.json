@@ -1,0 +1,22 @@
+{
+  "name": "bump-downloader",
+  "version": "1.0.0",
+  "description": "Downloader for https://github.com/treesnetwork/bumps",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/halbrd/bump-downloader.git"
+  },
+  "author": "",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/halbrd/bump-downloader/issues"
+  },
+  "homepage": "https://github.com/halbrd/bump-downloader#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}
