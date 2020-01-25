@@ -47,4 +47,4 @@ async function download(bump) {
 const bumps = require('./bumps.js');
 
 // download bumps
-(async () => Promise.all(bumps.map(bump => download(bump))))()
+(async () => Promise.all(bumps.map(download)))()
